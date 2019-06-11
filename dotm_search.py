@@ -43,8 +43,8 @@ def main():
                             + lines[lines.find(args.text)-40:lines.find(args.text)+40] + "\n")
                         match_counter += 1
                     
-    print match_counter
-    print total_counter
+    print "Total dotm files searched: " +  match_counter
+    print "Total dotm files matched: " + total_counter
 
                                 
 if __name__ == '__main__':
